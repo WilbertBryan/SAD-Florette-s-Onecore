@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D9B9C5D-CF07-47A1-BC96-D1A3E26F7622}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Florette_s_Onecore</RootNamespace>
+    <AssemblyName>Florette%27s Onecore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.9.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.0.9\lib\net472\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Choose Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Choose Role.Designer.cs">
+      <DependentUpon>Choose Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formAllOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAllOrders.Designer.cs">
+      <DependentUpon>formAllOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditAccount.Designer.cs">
+      <DependentUpon>formEditAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditExpense.Designer.cs">
+      <DependentUpon>formEditExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditPassword.Designer.cs">
+      <DependentUpon>formEditPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditProduct.Designer.cs">
+      <DependentUpon>formEditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditQuantity.Designer.cs">
+      <DependentUpon>formEditQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEditUsername.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEditUsername.Designer.cs">
+      <DependentUpon>formEditUsername.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formError.Designer.cs">
+      <DependentUpon>formError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formExpense.Designer.cs">
+      <DependentUpon>formExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formForgotPassword1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formForgotPassword1.Designer.cs">
+      <DependentUpon>formForgotPassword1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formForgotPassword2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formForgotPassword2.Designer.cs">
+      <DependentUpon>formForgotPassword2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formForgotPassword3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formForgotPassword3.Designer.cs">
+      <DependentUpon>formForgotPassword3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHome.Designer.cs">
+      <DependentUpon>formHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formIncome.Designer.cs">
+      <DependentUpon>formIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogOut.Designer.cs">
+      <DependentUpon>formLogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formManagementProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formManagementProduct.Designer.cs">
+      <DependentUpon>formManagementProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formNotes.Designer.cs">
+      <DependentUpon>formNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formOrder.Designer.cs">
+      <DependentUpon>formOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formOrderCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formOrderCheck.Designer.cs">
+      <DependentUpon>formOrderCheck.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formAllOrders.resx">
+      <DependentUpon>formAllOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditAccount.resx">
+      <DependentUpon>formEditAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditExpense.resx">
+      <DependentUpon>formEditExpense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditPassword.resx">
+      <DependentUpon>formEditPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditProduct.resx">
+      <DependentUpon>formEditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditQuantity.resx">
+      <DependentUpon>formEditQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEditUsername.resx">
+      <DependentUpon>formEditUsername.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formError.resx">
+      <DependentUpon>formError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formExpense.resx">
+      <DependentUpon>formExpense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formForgotPassword1.resx">
+      <DependentUpon>formForgotPassword1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formForgotPassword2.resx">
+      <DependentUpon>formForgotPassword2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formForgotPassword3.resx">
+      <DependentUpon>formForgotPassword3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHome.resx">
+      <DependentUpon>formHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formIncome.resx">
+      <DependentUpon>formIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogOut.resx">
+      <DependentUpon>formLogOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formManagementProduct.resx">
+      <DependentUpon>formManagementProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formNotes.resx">
+      <DependentUpon>formNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formOrder.resx">
+      <DependentUpon>formOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formOrderCheck.resx">
+      <DependentUpon>formOrderCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="formSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSuccess.Designer.cs">
+      <DependentUpon>formSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI.Designer.cs">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Methods.cs" />
+    <Compile Include="Form Signin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Signin.Designer.cs">
+      <DependentUpon>Form Signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="povOwner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="povOwner.Designer.cs">
+      <DependentUpon>povOwner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="povStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="povStaff.Designer.cs">
+      <DependentUpon>povStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Choose Role.resx">
+      <DependentUpon>Choose Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSuccess.resx">
+      <DependentUpon>formSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI.resx">
+      <DependentUpon>MDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Signin.resx">
+      <DependentUpon>Form Signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="povOwner.resx">
+      <DependentUpon>povOwner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="povStaff.resx">
+      <DependentUpon>povStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHOOSE YOUR POSITION.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

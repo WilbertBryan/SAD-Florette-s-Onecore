@@ -1,0 +1,51 @@
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Florette's Onecore.exe.config
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Florette's Onecore.exe
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Florette's Onecore.pdb
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Guna.Charts.WinForms.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Guna.UI2.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Guna.Charts.WinForms.xml
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.csproj.AssemblyReference.cache
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.csproj.SuggestedBindingRedirects.cache
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.Properties.Resources.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.csproj.GenerateResource.cache
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.csproj.CoreCompileInputs.cache
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.csproj.CopyComplete
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.exe
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.pdb
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.FormSignin.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.MDI.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.ChooseRole.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\MySql.Data.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Google.Protobuf.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\ZstdNet.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\BouncyCastle.Crypto.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\Ubiety.Dns.Core.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\System.Buffers.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\K4os.Compression.LZ4.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\K4os.Hash.xxHash.dll
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\bin\Debug\MySql.Data.xml
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette's Onecore.exe.config
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.SignUp.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.povOwner.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formHome.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formOrderCheck.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formEditAccount.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formEditUsername.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formSuccess.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formEditPassword.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formAllOrders.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formExpense.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formNotes.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formEditExpense.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formOrder.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formEditQuantity.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formError.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formManagementProduct.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formEditProduct.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formIncome.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formForgotPassword1.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formForgotPassword2.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formForgotPassword3.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.formLogOut.resources
+C:\! UC\Semester 3\Florette's Onecore\Florette's Onecore\obj\Debug\Florette_s_Onecore.povStaff.resources
